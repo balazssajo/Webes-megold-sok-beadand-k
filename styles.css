@@ -1,0 +1,51 @@
+* {
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+body{
+    background: linear-gradient(90deg, #EE7752, #63a2aa);
+}
+.selections {
+    display: flex;
+    justify-content: center;
+  }
+  button {
+    background: none;
+    padding-left: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 8rem;
+    transition: 200ms;
+  }
+  button:hover {
+    transform: scale(1.2);
+  }
+  button:active {
+    transform: scale(0.9);
+  }
+  .choice {
+    padding-right: 50px;
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    font-size: 30px;
+  }
+  .result{
+      text-align: center;
+      font-size: 100px;
+  }
+  .scores {
+    font-style: oblique;
+    font-weight: bold;
+    bottom: 0;
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    font-size: 30px;
+    position:absolute;                 
+    bottom:0;                         
+    left:0;
+  }
+  
+  
